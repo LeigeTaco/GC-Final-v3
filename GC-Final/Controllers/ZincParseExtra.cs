@@ -29,7 +29,20 @@ namespace GC_Final.Controllers
         public MotherBoardDetails()
         {
 
-
+            MBID = "";
+            PID = "";
+            Socket = "";
+            Chipset = "";
+            RAMSlots = 0;
+            SLI = 0;
+            XFIRE = 0;
+            FormFactor = "";
+            Name = "";
+            Desc = "";
+            Brand = "";
+            Price = 0.00;
+            Stars = "";
+            Manufacturer = "";
 
         }
 
