@@ -33,11 +33,10 @@ namespace GC_Final.Controllers
 
                     JObject jsoninfo = JObject.Parse(info);
 
-                    List<> newList = new List<string>();
                    // ViewBag.zinc = jsoninfo;
                 }
             }
-           // return ();
+           return ("x");
 
         }
 
