@@ -8,13 +8,13 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Mvc;
-//using GC-Final.Models;
+using GC_Final.Models;
 
 namespace GC_Final.Controllers
 {
     public partial class ZincParseController : ApiController
     {
-        public ActionResult PullData()
+        public string PullIDs()
         {
             for (int i = 1; i < 2; i++) //NEEDS- add multiple page queries
             {
