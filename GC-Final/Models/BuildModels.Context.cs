@@ -13,10 +13,10 @@ namespace GC_Final.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DAPSFinalDBEntities : DbContext
+    public partial class DAPSDBEntities : DbContext
     {
-        public DAPSFinalDBEntities()
-            : base("name=DAPSFinalDBEntities")
+        public DAPSDBEntities()
+            : base("name=DAPSDBEntities")
         {
         }
     

@@ -768,7 +768,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="DAPSFinalDBEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="DAPSDBEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Builds" EntityType="Self.Build" />
           <EntitySet Name="Cases" EntityType="Self.Case" />
           <EntitySet Name="CPUs" EntityType="Self.CPU" />
@@ -831,7 +831,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="DAPSFinalDBModelStoreContainer" CdmEntityContainer="DAPSFinalDBEntities">
+        <EntityContainerMapping StorageEntityContainer="DAPSFinalDBModelStoreContainer" CdmEntityContainer="DAPSDBEntities">
           <EntitySetMapping Name="Builds">
             <EntityTypeMapping TypeName="DAPSFinalDBModel.Build">
               <MappingFragment StoreEntitySet="Builds">
